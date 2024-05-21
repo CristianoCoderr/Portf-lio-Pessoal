@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio pessoal</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <h1>Portfólio Pessoal</h1>
+    <nav>
+      <ul>
+        <li><a href="#paginainicial">Página inicial</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="paginainicial">
+    <h2 class="welcome-message">Seja bem vindo ao meu Portfólio ;)</h2>
+    <div class="intro-container">
+      <p class="intro-paragraph">Olá, fique à vontade para conhecer mais sobre meus conhecimentos e experiências.</p>
+    </div>
+  </section>
+  <br>
+  <section id="sobre">
+    <img src="imagem.ptf.jpeg" alt="" style="width: 200px; border-radius: 20px;">
+    <p>Olá, meu nome é Felipe Cristiano, tenho 21 anos de idade e sou natural de Manaus, AM. Tenho me interessado em aprender sobre tecnologia atualmente. No meu tempo livre, gosto de ler livros relacionados à Biologia. Estou buscando me aprimorar em desenvolvimento web e pretendo publicar mais projetos no meu repositório.</p>
+  </section>
+  <br>
+  <section id="formacao">
+    <h2>Minha formação</h2>
+    <img src="logo.unin.jpeg" style="width: 205px; border-radius: 20px;">
+    <p class="info-paragraph">Atualmente estou Cursando Análise e Desenvolvimento de Sistemas na Uninter.</p>
+  </section>
+  <section id="contato">
+    <h2>Contato</h2>
+    <form id="contact-form">
+      <div class="form-group">
+        <input type="text" id="name" name="name" placeholder="Seu nome:" required>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" name="email" placeholder="Seu email:" required>
+      </div>
+      <div class="form-group">
+        <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; Esta página foi construída por</p>
+    <p>Felipe RU - 4151310 para o trabalho</p>
+    <p>da faculdade Uninter!</p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
